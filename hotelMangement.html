@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+    .menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        align-items: start;
+    }
+
+    .category {
+        width: 100%;
+        color: rgb(45, 56, 216);
+    }
+
+    table {
+        width: 100%;
+    }
+    h1
+    {
+        text-align: center;
+        text-decoration: underline;
+        color: rgb(233, 129, 147);
+    }
+    h2{
+        text-transform: uppercase;
+        color: rgb(243, 34, 97);
+    }
+    button
+    {
+        display: block; 
+  margin-left: auto;
+  margin-right: auto;
+    }
+</style>
+    
+</head>
+<body>
+    <h1>
+            The project cafe
+    </h1>
+    <div class="menu">
+        <div class="category">
+        <h2>GUJARATI</h2>
+    <table border="3" cellpadding="10">
+        <tr>
+            <th>select</th>
+            <th>item</th>
+            <th>price</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td><input type="checkbox" class="item-check"></td>
+            <td class="item-name">Khandvi</td>
+            <td class="item-price">70</td>
+            <td><input type="number" class="item-qty"> </td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" class="item-check"></td>
+            <td class="item-name">Dhokla</td>
+            <td class="item-price">50</td>
+            <td><input type="number" class="item-qty"> </td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" class="item-check"></td>
+            <td class="item-name">Fafda</td>
+            <td class="item-price">400</td>
+            <td><input type="number" class="item-qty"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" class="item-check"></td>
+            <td class="item-name">Jalebi</td>
+            <td class="item-price">350</td>
+            <td><input type="number"class="item-qty"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" class="item-check"></td>
+            <td class="item-name">Handvo</td>
+            <td class="item-price">70</td>
+            <td><input type="number" class="item-qty"></td>
+        </tr>   
+    </table>
+    </div>
+
+    <div class="category">
+    <h2>SOUTH INDIAN</h2>
+    <table border="3" cellpadding="10">
+        <tr>
+            <th>select</th>
+            <th>item</th>
+            <th>price</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td><input type="checkbox" class="item-check"></td>
+            <td class="item-name">Idli</td>
+            <td class="item-price">50</td>
+            <td><input type="number" class="item-qty"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" class="item-check"></td>
+            <td class="item-name">Dosa</td>
+            <td class="item-price">110</td>
+            <td><input type="number" class="item-qty"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" class="item-check"></td>
+            <td class="item-name">Rasam</td>
+            <td class="item-price">150</td>
+            <td><input type="number" class="item-qty"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" class="item-check"></td>
+            <td class="item-name">Rice</td>
+            <td class="item-price">140</td>
+            <td><input type="number" class="item-qty"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" class="item-check"></td>
+            <td class="item-name">Mendu wada</td>
+            <td class="item-price">110</td>
+            <td><input type="number" class="item-qty"></td>
+        </tr>   
+    </table>
+    </div>
+
+    <div class="category">
+    <h2>NORTH INDIAN</h2>
+    <table border="3" cellpadding="10">
+        <tr>
+            <th>select</th>
+            <th>item</th>
+            <th>price</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td><input type="checkbox" class="item-check"></td>
+            <td class="item-name">Paneer Handi</td>
+            <td class="item-price">200</td>
+            <td><input type="number" class="item-qty"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" class="item-check"></td>
+            <td class="item-name">Naan</td>
+            <td class="item-price">120</td>
+            <td><input type="number" class="item-qty"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" class="item-check"></td>
+            <td class="item-name">Jeera Rice</td>
+            <td class="item-price">150</td>
+            <td><input type="number" class="item-qty"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" class="item-check"></td>
+            <td class="item-name">Dal tadka</td>
+            <td class="item-price">170</td>
+            <td><input type="number" class="item-qty"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" class="item-check"></td>
+            <td class="item-name">Lassi</td>
+            <td class="item-price">90</td>
+            <td><input type="number" class="item-qty"></td>
+        </tr>   
+    </table>
+    </div>
+
+    <div class="category">
+    <h2>ITALIAN</h2>
+    <table border="3" cellpadding="10">
+        <tr>
+            <th>select</th>
+            <th>item</th>
+            <th>price</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td><input type="checkbox" class="item-check"></td>
+            <td class="item-name">Pasta</td>
+            <td class="item-price">200</td>
+            <td><input type="number" class="item-qty"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" class="item-check"></td>
+            <td class="item-name">Pizza</td>
+            <td class="item-price">350</td>
+            <td><input type="number"class="item-qty""></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" class="item-check"></td>
+            <td class="item-name">Crossiant</td>
+            <td class="item-price">220</td>
+            <td><input type="number" class="item-qty"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" class="item-check"></td>
+            <td class="item-name">Tiramisu</td>
+            <td class="item-price">170</td>
+            <td><input type="number" class="item-qty"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" class="item-check"></td>
+            <td class="item-name">Hot chocolate</td>
+            <td class="item-price">190</td>
+            <td><input type="number" class="item-qty"></td>
+        </tr>   
+    </table>
+    </div>
+   </div>
+   <button onclick="generateBill()">GENERATE BILL</button>
+<h2>BILL</h2>
+<pre id="billArea"></pre>   
+</body>
+<script>
+function generateBill()
+{
+    let checks = document.getElementsByClassName("item-check");
+    let names  = document.getElementsByClassName("item-name");
+    let prices = document.getElementsByClassName("item-price");
+    let qtys   = document.getElementsByClassName("item-qty");
+
+    let bill = "";
+    let grandTotal = 0;
+    let isSelected = false;
+
+    bill += "Item        Qty   Price   Total\n"; //store text in variable
+ 
+
+    for(let i = 0; i < checks.length; i++)
+    {
+        if(checks[i].checked)   //runs only if checkbox is ticked
+        {
+            isSelected = true;
+
+            let item  = names[i].innerHTML;
+            let price = parseInt(prices[i].innerHTML);
+            let qty   = parseInt(qtys[i].value);
+
+            if(isNaN(qty) || qty <= 0) //isNaN means not a number return true if vlaue if not number
+            {
+                alert("Enter quantity for " + item);
+                return;
+            }
+
+            let total = price * qty;
+            grandTotal += total;
+
+            bill += item.padEnd(12) + 
+                    qty.toString().padEnd(6) + 
+                    price.toString().padEnd(8) + 
+                    total + "\n";
+        }
+    }
+
+    if(!isSelected)
+    {
+        alert("Please select at least one item");
+        return;
+    }
+
+    bill += "--------------------------------\n";
+    bill += "Grand Total           " + grandTotal;
+
+    document.getElementById("billArea").textContent = bill;
+}
+</script>
+
+
+</html>
