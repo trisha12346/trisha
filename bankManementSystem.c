@@ -1,11 +1,11 @@
 #include<stdio.h>
 #include<stdlib.h>
 #define SIZE 5
-void displayAccounts(int balance[]);
-void withdrawAmount(int balance[]);
-void depositeAmount(int balance[]);
+int displayAccounts(int balance[]);
+int withdrawAmount(int balance[]);
+int depositeAmount(int balance[]);
 
-void displayAccounts(int balance[])
+int displayAccounts(int balance[])
 {
     int i;
     printf("\nAccounts Balance of 1 to 5:");
@@ -15,7 +15,7 @@ void displayAccounts(int balance[])
     }
 }
 
-void depositeAmount(int balance[])
+int depositeAmount(int balance[])
 {
     int accNo,money;
 
@@ -37,7 +37,7 @@ void depositeAmount(int balance[])
 }
 
 
-void withdrawAmount(int balance[])
+int withdrawAmount(int balance[])
 {
     int accNo,money;
     printf("\nEnter the Account from which u want to withdraw[1 to 5]:");
@@ -79,6 +79,7 @@ void main()
         printf("\n2)-----Deposite amount");
         printf("\n3)-----Withdraw money");
         printf("\n4)-----exit");
+        printf("\nEnter you choice: ");
         scanf("%d",&choice);
 
         switch(choice)
@@ -96,4 +97,5 @@ void main()
     }
     
     
+
 }
